@@ -18,7 +18,7 @@ async def ping(ctx):
     await ctx.send('pong')
     
     
-    @bot.command()
+ @bot.command()
 async def hi(ctx):
     await ctx.send('hi')
 
