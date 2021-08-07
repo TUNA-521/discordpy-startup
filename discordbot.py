@@ -19,7 +19,7 @@ async def ping(ctx):
     
     
     @bot.command()
-async def hi(ctx):
+async def ping(ctx):
     await ctx.send('hi')
 
 
