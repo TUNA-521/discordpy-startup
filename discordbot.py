@@ -14,13 +14,14 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
+async def hi(ctx):
+    await ctx.send('こんにちは！')
     
     
- @bot.command()
+@bot.command()
 async def hi(ctx):
     await ctx.send('hi')
 
+ 
 
 bot.run(token)
